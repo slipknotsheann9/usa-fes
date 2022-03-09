@@ -1,0 +1,11 @@
+<router-outlet *ngIf="!loading"></router-outlet>
+<div *ngIf="loading" class="flex h-screen w-screen items-center justify-center">
+	<div class="text-center">
+		<img
+			src="/assets/logo-rounded.png"
+			alt="USA-FES"
+			class="shadow-lg border border-gray-300 rounded-full h-52 w-52"
+		/>
+		<h4 class="text-3xl mt-2">USA - FES</h4>
+	</div>
+</div>
